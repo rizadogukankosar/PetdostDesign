@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <main class="h-screen w-screen bg-white px-4">
+    <div class="flex items-end px-4 mt-2">
+      <img class="h-12" src="assets/logo_purple.svg"/>
+      <span class="text-[#8731C9] text-sm font-bold">Kayıt ol</span>
+    </div>
+    <div class="mt-2 h-0.5 bg-[#8731C9]"></div>
+    <div class="px-4 mt-6">
+      <span class="text-[#8731C9] text-sm font-bold">İsminiz:</span>
+      <p class="border-2 border-gray-500 h-8 rounded-full text-[#8731C9] text-sm font-bold w-full text-center align-middle mt-1">Rıza Doğukan Koşar</p>
+    </div>
+    <div class="px-4 mt-3">
+      <span class="text-[#8731C9] text-sm font-bold">E-mail adresiniz:</span>
+      <p class="border-2 border-gray-500 h-8 rounded-full text-[#8731C9] text-sm font-bold w-full text-center align-middle mt-1">rizadogukankosar@gmail.com</p>
+    </div>
+    <div class="px-4 mt-3">
+      <span class="text-[#8731C9] text-sm font-bold">Şifreniz:</span>
+      <p class="border-2 border-gray-500 h-8 rounded-full text-[#8731C9] text-sm font-bold w-full text-center align-middle mt-1">*************</p>
+    </div>
+    <div class="px-4 mt-3">
+      <span class="text-[#8731C9] text-sm font-bold">Şifreniz (Tekrar):</span>
+      <p class="border-2 border-gray-500 h-8 rounded-full text-[#8731C9] text-sm font-bold w-full text-center align-middle mt-1">*************</p>
+    </div>
+    <div class="grid grid-cols-2 gap-x-4 mt-4">
+      <div class="flex flex-col justify-center pl-4">
+        <span class="text-[#8731C9] text-sm font-bold text-center">Ülke:</span>
+        <select class="border-gray-500 border-2 rounded-lg h-12 w-full text-center text-[#8731C9] font-bold">
+          <option value="volvo">Türkiye</option>
+          <option value="saab">Saab</option>
+          <option value="opel">Opel</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+      <div class="flex flex-col justify-center pr-4">
+        <span class="text-[#8731C9] text-sm font-bold text-center">Şehir:</span>
+        <select class="border-gray-500 border-2 rounded-lg h-12 w-full text-center text-[#8731C9] font-bold">
+          <option value="volvo">Denizli</option>
+          <option value="saab">Saab</option>
+          <option value="opel">Opel</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+    </div>
+    <div class="flex px-4 mt-4">
+      <input type="checkbox" class="">
+      <label class="text-[#8731C9] text-sm italic px-4">Kulanıcı verilerini işleme kanununu okudum ve kabul ediyorum</label><br>
+    </div>
+    <div class="flex justify-center mt-6">
+      <button class="border-2 border-gray-500 text-[#8731C9] p-4 rounded-xl font-bold flex w-52 justify-center">Kayıt ol ve devam et</button>
+    </div>
+  </main>
+</body>
+</html>

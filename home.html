@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <main>
+    <div class="flex items-end px-4 mt-2">
+      <img class="h-12" src="assets/logo_purple.svg"/>
+      <span class="text-[#8731C9] text-sm font-bold">Eş ara</span>
+      <img class="h-4" src="assets/two-hearts-svgrepo-com.svg"/>
+    </div>
+
+    <div class="bg-[#8731C9] rounded-3xl py-8 m-4 mt-16">
+      <div class="flex justify-center">
+        <span class="text-white text-lg font-bold">Aradığınız:</span>
+      </div>
+      <div class="grid grid-cols-2 gap-x-4">
+        <div class="flex flex-col justify-center pl-4">
+          <span class="text-white text-sm font-bold text-center">Tür:</span>
+          <select class="border-gray-500 border-2 rounded-lg h-12 w-full text-center text-[#8731C9] font-bold">
+            <option value="volvo">Kemirgen</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+        <div class="flex flex-col justify-center pr-4">
+          <span class="text-white text-sm font-bold text-center">Irk:</span>
+          <select class="border-gray-500 border-2 rounded-lg h-12 w-full text-center text-[#8731C9] font-bold">
+            <option value="volvo">Tavşan</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-x-4 mt-4">
+        <div class="flex flex-col justify-center pl-4">
+          <span class="text-white text-sm font-bold text-center">Yaş:</span>
+          <select class="border-gray-500 border-2 rounded-lg h-12 w-full text-center text-[#8731C9] font-bold">
+            <option value="volvo">2</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+        <div class="flex flex-col justify-center pr-4">
+          <span class="text-white text-sm font-bold text-center">Cinsiyet:</span>
+          <select class="border-gray-500 border-2 rounded-lg h-12 w-full text-center text-[#8731C9] font-bold">
+            <option value="volvo">Kız</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+      </div>
+      <div class="flex justify-center mt-6">
+        <button class="bg-white text-[#8731C9] p-2 rounded-xl font-bold flex w-52 justify-center">Petleri göster</button>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <span class="text-[#8731C9] text-sm font-bold text-center">Veya <br> Petime göre seçenekleri göster</span>
+    </div>
+
+    <div class="flex flex-col items-center justify-center mt-6">
+      <img class="rounded-full h-24 w-24 object-cover" src="data:image/jpeg;base64,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"/>
+    </div>
+    <div class="flex flex-col items-center px-4 mt-2 italic">
+      <span class="text-[#8731C9] text-lg font-bold">Güllü</span>
+      <span class="text-[#8731C9] text-sm font-bold">Tavşan</span>
+    </div>
+
+  </main>
+
+
+
+  <main class="absolute bottom-0 w-full grid grid-cols-3 justify-items-center bg-gray-100/50 py-2">
+    <img class="h-12" src="assets/two-hearts-svgrepo-com.svg" alt="">
+    <img class="h-12" src="assets/paw-1-svgrepo-com.svg" alt="">
+    <img class="h-12" src="assets/dog-collar-svgrepo-com.svg" alt="">
+  </main>
+</body>
+</html>
